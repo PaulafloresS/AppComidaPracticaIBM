@@ -9,6 +9,7 @@ import UIKit
 
 class ProductCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var time: UILabel!
+    @IBOutlet weak var name: UILabel!
     @IBOutlet weak var product: UIImageView!
     @IBOutlet weak var price: UILabel!
   

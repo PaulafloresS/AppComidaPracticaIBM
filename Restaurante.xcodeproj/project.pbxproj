@@ -18,7 +18,6 @@
 		7C8DA97E2BACB4C00019ABE7 /* RestauranteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DA97D2BACB4C00019ABE7 /* RestauranteUITestsLaunchTests.swift */; };
 		7C8DA98E2BACD6050019ABE7 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DA98C2BACD6050019ABE7 /* ProductCollectionViewCell.swift */; };
 		7C8DA98F2BACD6050019ABE7 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C8DA98D2BACD6050019ABE7 /* ProductCollectionViewCell.xib */; };
-		7C8DA9922BACDA270019ABE7 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DA9912BACDA270019ABE7 /* Producto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		7C8DA97D2BACB4C00019ABE7 /* RestauranteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestauranteUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7C8DA98C2BACD6050019ABE7 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C8DA98D2BACD6050019ABE7 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
-		7C8DA9912BACDA270019ABE7 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +145,6 @@
 		7C8DA9902BACD9FA0019ABE7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7C8DA9912BACDA270019ABE7 /* Producto.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -286,7 +283,6 @@
 			files = (
 				7C8DA95F2BACB4BE0019ABE7 /* ViewController.swift in Sources */,
 				7C8DA95B2BACB4BE0019ABE7 /* AppDelegate.swift in Sources */,
-				7C8DA9922BACDA270019ABE7 /* Producto.swift in Sources */,
 				7C8DA98E2BACD6050019ABE7 /* ProductCollectionViewCell.swift in Sources */,
 				7C8DA95D2BACB4BE0019ABE7 /* SceneDelegate.swift in Sources */,
 			);

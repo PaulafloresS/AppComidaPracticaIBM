@@ -17,8 +17,9 @@
                 <rect key="frame" x="0.0" y="0.0" width="195" height="130"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hamburguesa" translatesAutoresizingMaskIntoConstraints="NO" id="4bJ-RC-b7u">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hamburguesa" translatesAutoresizingMaskIntoConstraints="NO" id="4bJ-RC-b7u">
                         <rect key="frame" x="0.0" y="0.0" width="195" height="94"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="195" id="QpK-lK-EUm"/>
                             <constraint firstAttribute="height" constant="94" id="cuB-fj-Qqz"/>
@@ -27,7 +28,7 @@
                         </constraints>
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWZ-R2-bTf">
-                        <rect key="frame" x="0.0" y="92" width="195" height="38"/>
+                        <rect key="frame" x="0.0" y="92" width="183" height="38"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$79.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0Y-PJ-VB7">
                                 <rect key="frame" x="27" y="11" width="46" height="16"/>
@@ -40,7 +41,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TfK-VA-EEi">
-                                <rect key="frame" x="145" y="12" width="39" height="15"/>
+                                <rect key="frame" x="133" y="12" width="39" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="lxV-oA-5SX"/>
                                     <constraint firstAttribute="width" constant="39" id="vK5-y5-ohR"/>
@@ -53,8 +54,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="TfK-VA-EEi" secondAttribute="bottom" constant="11" id="0Bc-sY-C7V"/>
-                            <constraint firstItem="TfK-VA-EEi" firstAttribute="leading" secondItem="q0Y-PJ-VB7" secondAttribute="trailing" constant="72" id="MO3-IF-KjT"/>
-                            <constraint firstItem="TfK-VA-EEi" firstAttribute="leading" secondItem="q0Y-PJ-VB7" secondAttribute="trailing" constant="72" id="gCO-Jq-48w"/>
+                            <constraint firstItem="TfK-VA-EEi" firstAttribute="leading" secondItem="q0Y-PJ-VB7" secondAttribute="trailing" constant="60" id="MO3-IF-KjT"/>
                             <constraint firstAttribute="bottom" secondItem="q0Y-PJ-VB7" secondAttribute="bottom" constant="11" id="gRf-dx-pq9"/>
                             <constraint firstItem="q0Y-PJ-VB7" firstAttribute="top" secondItem="bWZ-R2-bTf" secondAttribute="top" constant="11" id="qJk-6m-nJG"/>
                             <constraint firstItem="TfK-VA-EEi" firstAttribute="top" secondItem="bWZ-R2-bTf" secondAttribute="top" constant="12" id="rzH-SR-xcU"/>
@@ -62,9 +62,14 @@
                             <constraint firstAttribute="trailing" secondItem="TfK-VA-EEi" secondAttribute="trailing" constant="11" id="tlu-tX-qLr"/>
                         </constraints>
                     </view>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesa de res" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTG-XV-6Yd">
-                        <rect key="frame" x="26" y="65" width="143" height="17"/>
-                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <view alpha="0.40000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ukK-Ni-tyt">
+                        <rect key="frame" x="0.0" y="-8" width="207" height="102"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" systemColor="darkTextColor"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesa" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZoJ-7L-gQJ">
+                        <rect key="frame" x="10" y="66" width="100.66666666666667" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -72,17 +77,18 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstItem="bWZ-R2-bTf" firstAttribute="top" secondItem="lTG-XV-6Yd" secondAttribute="bottom" constant="10" id="99G-Ve-S2D"/>
                 <constraint firstItem="4bJ-RC-b7u" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="HNK-1o-hwH"/>
+                <constraint firstItem="bWZ-R2-bTf" firstAttribute="top" secondItem="ZoJ-7L-gQJ" secondAttribute="bottom" constant="8" symbolic="YES" id="WDT-nx-0bg"/>
                 <constraint firstAttribute="bottom" secondItem="4bJ-RC-b7u" secondAttribute="bottom" constant="36" id="Wn1-JD-ivS"/>
-                <constraint firstItem="bWZ-R2-bTf" firstAttribute="centerX" secondItem="lTG-XV-6Yd" secondAttribute="centerX" id="cQ7-9T-NN5"/>
                 <constraint firstItem="4bJ-RC-b7u" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ce2-mZ-a0H"/>
                 <constraint firstAttribute="bottom" secondItem="bWZ-R2-bTf" secondAttribute="bottom" id="d5l-34-89f"/>
                 <constraint firstAttribute="trailing" secondItem="4bJ-RC-b7u" secondAttribute="trailing" id="h9m-7l-Qx7"/>
                 <constraint firstItem="bWZ-R2-bTf" firstAttribute="leading" secondItem="4bJ-RC-b7u" secondAttribute="leading" id="he7-qy-CvP"/>
+                <constraint firstItem="ZoJ-7L-gQJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="ial-hY-MWo"/>
             </constraints>
             <size key="customSize" width="195" height="130"/>
             <connections>
+                <outlet property="name" destination="ZoJ-7L-gQJ" id="7bo-EC-S3p"/>
                 <outlet property="price" destination="q0Y-PJ-VB7" id="Xq5-k5-BYZ"/>
                 <outlet property="product" destination="4bJ-RC-b7u" id="mCl-oD-XhQ"/>
                 <outlet property="time" destination="TfK-VA-EEi" id="RyF-6d-GZm"/>
@@ -92,6 +98,9 @@
     </objects>
     <resources>
         <image name="hamburguesa" width="1248" height="812"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
