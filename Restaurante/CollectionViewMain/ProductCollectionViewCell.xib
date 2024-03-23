@@ -62,7 +62,7 @@
                             <constraint firstAttribute="trailing" secondItem="TfK-VA-EEi" secondAttribute="trailing" constant="11" id="tlu-tX-qLr"/>
                         </constraints>
                     </view>
-                    <view alpha="0.40000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ukK-Ni-tyt">
+                    <view opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ukK-Ni-tyt">
                         <rect key="frame" x="0.0" y="-8" width="207" height="102"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" systemColor="darkTextColor"/>
